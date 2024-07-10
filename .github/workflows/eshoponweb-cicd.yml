@@ -6,7 +6,7 @@ on: [push, workflow_dispatch]
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
   RESOURCE-GROUP: rg-eshoponweb-tavo
-  LOCATION: rg-eshoponweb-tavo
+  LOCATION: eastus
   TEMPLATE-FILE: infra/webapp.bicep
   SUBSCRIPTION-ID: 0344defe-b10e-4139-8e77-31acf3ba722d
   WEBAPP-NAME: eshoponweb-webapp-TAVOBIT
